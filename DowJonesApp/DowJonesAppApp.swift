@@ -9,7 +9,7 @@ import SwiftUI
 
 @main
 struct DowJonesAppApp: App {
-    @StateObject private var vm = HomeViewModel() //
+    @StateObject private var vm = HomeViewModel() 
     
     var body: some Scene {
         WindowGroup {

@@ -20,6 +20,8 @@
 		846C337D2909644400EF4712 /* PreviewProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846C337C2909644400EF4712 /* PreviewProvider.swift */; };
 		846C337F29096B5500EF4712 /* Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846C337E29096B5500EF4712 /* Double.swift */; };
 		846C338129098DE200EF4712 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846C338029098DE200EF4712 /* HomeViewModel.swift */; };
+		848AFCCF2909B8A800BE71E3 /* CoinDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848AFCCE2909B8A800BE71E3 /* CoinDataService.swift */; };
+		848AFCD22909C3C600BE71E3 /* NetworkingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848AFCD12909C3C600BE71E3 /* NetworkingManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +39,8 @@
 		846C337C2909644400EF4712 /* PreviewProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewProvider.swift; sourceTree = "<group>"; };
 		846C337E29096B5500EF4712 /* Double.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Double.swift; sourceTree = "<group>"; };
 		846C338029098DE200EF4712 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		848AFCCE2909B8A800BE71E3 /* CoinDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinDataService.swift; sourceTree = "<group>"; };
+		848AFCD12909C3C600BE71E3 /* NetworkingManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +75,8 @@
 			children = (
 				846C335829068E6600EF4712 /* DowJonesAppApp.swift */,
 				846C33662907126B00EF4712 /* Extensions */,
+				848AFCD02909C38000BE71E3 /* Utilities */,
+				848AFCCD2909B88F00BE71E3 /* Services */,
 				846C3375290855F500EF4712 /* Models */,
 				846C33692907D87C00EF4712 /* Core */,
 				846C335A29068E6600EF4712 /* ContentView.swift */,
@@ -158,6 +164,22 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
+		848AFCCD2909B88F00BE71E3 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				848AFCCE2909B8A800BE71E3 /* CoinDataService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		848AFCD02909C38000BE71E3 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				848AFCD12909C3C600BE71E3 /* NetworkingManager.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -228,6 +250,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				848AFCCF2909B8A800BE71E3 /* CoinDataService.swift in Sources */,
 				846C337B2909639500EF4712 /* CoinRowView.swift in Sources */,
 				846C338129098DE200EF4712 /* HomeViewModel.swift in Sources */,
 				846C335B29068E6600EF4712 /* ContentView.swift in Sources */,
@@ -235,6 +258,7 @@
 				846C335929068E6600EF4712 /* DowJonesAppApp.swift in Sources */,
 				846C33722907DD5800EF4712 /* CircleButtonView.swift in Sources */,
 				846C3379290858F200EF4712 /* Coin.swift in Sources */,
+				848AFCD22909C3C600BE71E3 /* NetworkingManager.swift in Sources */,
 				846C33682907129100EF4712 /* Color.swift in Sources */,
 				846C337D2909644400EF4712 /* PreviewProvider.swift in Sources */,
 				846C337F29096B5500EF4712 /* Double.swift in Sources */,
