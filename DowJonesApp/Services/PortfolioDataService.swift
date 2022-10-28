@@ -7,7 +7,6 @@
 
 import Foundation
 import CoreData
-import UIKit
 
 class PortfolioDataService {
     @Published var savedEntities: [Portfolio] = [] 
@@ -29,6 +28,7 @@ class PortfolioDataService {
     // MARK: PUBLIC
     
     func updatePortfolio(coin: Coin, amount: Double) {
+        
         if let entity = savedEntities.first(where: { $0.coinID == coin.id }) {
             if amount > 0 {
                 update(entity: entity, amount: amount)
