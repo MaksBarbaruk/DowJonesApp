@@ -38,6 +38,7 @@
 		848AFCD72909D50200BE71E3 /* CoinImageServise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848AFCD62909D50200BE71E3 /* CoinImageServise.swift */; };
 		848AFCD92909D84600BE71E3 /* CoinImageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848AFCD82909D84600BE71E3 /* CoinImageViewModel.swift */; };
 		84E5D564290D239D00DD2FCC /* HapticManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E5D563290D239D00DD2FCC /* HapticManager.swift */; };
+		84E5D569290DB04B00DD2FCC /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E5D568290DB04B00DD2FCC /* DetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -73,6 +74,7 @@
 		848AFCD62909D50200BE71E3 /* CoinImageServise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinImageServise.swift; sourceTree = "<group>"; };
 		848AFCD82909D84600BE71E3 /* CoinImageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinImageViewModel.swift; sourceTree = "<group>"; };
 		84E5D563290D239D00DD2FCC /* HapticManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticManager.swift; sourceTree = "<group>"; };
+		84E5D568290DB04B00DD2FCC /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,6 +144,7 @@
 			children = (
 				846C336F2907DD1600EF4712 /* Components */,
 				846C336A2907D8BB00EF4712 /* Home */,
+				84E5D565290DAFD600DD2FCC /* Detail */,
 			);
 			path = Core;
 			sourceTree = "<group>";
@@ -236,6 +239,30 @@
 			path = CoinImage;
 			sourceTree = "<group>";
 		};
+		84E5D565290DAFD600DD2FCC /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				84E5D566290DB00700DD2FCC /* Views */,
+				84E5D567290DB01300DD2FCC /* ViewModels */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		84E5D566290DB00700DD2FCC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				84E5D568290DB04B00DD2FCC /* DetailView.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		84E5D567290DB01300DD2FCC /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = ViewModels;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -319,6 +346,7 @@
 				847F9840290AC808005E08C4 /* StatisticView.swift in Sources */,
 				846C335929068E6600EF4712 /* DowJonesAppApp.swift in Sources */,
 				847F983C290AA1BF005E08C4 /* UIApplication.swift in Sources */,
+				84E5D569290DB04B00DD2FCC /* DetailView.swift in Sources */,
 				846C33722907DD5800EF4712 /* CircleButtonView.swift in Sources */,
 				846C3379290858F200EF4712 /* Coin.swift in Sources */,
 				847F983A290A976E005E08C4 /* SearchBarView.swift in Sources */,
