@@ -1,5 +1,5 @@
 //
-//  Statistic.swift
+//  MarketData.swift
 //  DowJonesApp
 //
 //  Created by MaksBarbaruk on 27.10.2022.
