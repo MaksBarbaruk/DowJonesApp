@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		846C335929068E6600EF4712 /* DowJonesAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846C335829068E6600EF4712 /* DowJonesAppApp.swift */; };
+		846C335929068E6600EF4712 /* DowJonesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846C335829068E6600EF4712 /* DowJonesApp.swift */; };
 		846C335B29068E6600EF4712 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846C335A29068E6600EF4712 /* ContentView.swift */; };
 		846C335D29068E6700EF4712 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 846C335C29068E6700EF4712 /* Assets.xcassets */; };
 		846C336029068E6700EF4712 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 846C335F29068E6700EF4712 /* Preview Assets.xcassets */; };
@@ -46,7 +46,7 @@
 
 /* Begin PBXFileReference section */
 		846C335529068E6600EF4712 /* Crypt Like Dow Jones.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Crypt Like Dow Jones.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		846C335829068E6600EF4712 /* DowJonesAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DowJonesAppApp.swift; sourceTree = "<group>"; };
+		846C335829068E6600EF4712 /* DowJonesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DowJonesApp.swift; sourceTree = "<group>"; };
 		846C335A29068E6600EF4712 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		846C335C29068E6700EF4712 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		846C335F29068E6700EF4712 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -113,7 +113,7 @@
 		846C335729068E6600EF4712 /* DowJonesApp */ = {
 			isa = PBXGroup;
 			children = (
-				846C335829068E6600EF4712 /* DowJonesAppApp.swift */,
+				846C335829068E6600EF4712 /* DowJonesApp.swift */,
 				846C33662907126B00EF4712 /* Extensions */,
 				848AFCD02909C38000BE71E3 /* Utilities */,
 				848AFCCD2909B88F00BE71E3 /* Services */,
@@ -354,7 +354,7 @@
 				847F9844290AD904005E08C4 /* MarketData.swift in Sources */,
 				848AFCD52909D37C00BE71E3 /* CoinImageView.swift in Sources */,
 				847F9840290AC808005E08C4 /* StatisticView.swift in Sources */,
-				846C335929068E6600EF4712 /* DowJonesAppApp.swift in Sources */,
+				846C335929068E6600EF4712 /* DowJonesApp.swift in Sources */,
 				847F983C290AA1BF005E08C4 /* UIApplication.swift in Sources */,
 				84E5D569290DB04B00DD2FCC /* DetailView.swift in Sources */,
 				84E5D56D290DC75700DD2FCC /* DetailViewModel.swift in Sources */,

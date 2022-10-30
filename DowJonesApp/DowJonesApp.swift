@@ -8,7 +8,7 @@
 import SwiftUI
 
 @main
-struct DowJonesAppApp: App {
+struct DowJonesApp: App {
     @StateObject private var vm = HomeViewModel()
     
     init() {
